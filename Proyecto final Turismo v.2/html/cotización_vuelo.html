@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Dev Tours</title>
+    <link href="../lib/bootstrap.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbar-fixed/">
+    <link href="../css/estilos_catalogo.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <div class="inicioPagina">
+      <img src="../img/cotizacionvuelos_img.jpg" style="width:100% ;">
+      <span class="tituloPagina">COTIZACIÓN DE VUELOS</span>
+    </div>
+
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top fondoNav">
+      <div class="container-fluid">
+        <a class="navbar-brand tituloPrincipal" href="#"><i style class="fa-solid fa-suitcase"></i> Dev Tours</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <div class="paddingnavitems"><a class="nav-link active" aria-current="page" href="../index.html"><p class="fuenteNav">INICIO</p></a></div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="nav-item dropdown">
+                <button class="dropbtn">TOURS</button>
+                <div class="dropdown-content">
+                  <a href="#">Desierto</a>
+                  <a href="#">Montaña</a>
+                  <a href="#">Playa</a>
+                  <a href="../html/catalogo.html">Selva</a>
+                  <a href="#">valle</a>
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a href="./cotización_vuelo.html" class="nav-link"><p class="fuenteNav">VUELOS</p></a></div>              
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-regular fa-user fa-2x"></i></a></div>              
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a href="../html/carrito.html" class="nav-link"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></div>              
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a class="nav-link"><i class="fa-brands fa-whatsapp fa-2x"></i></a></div>              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <br>
+    <!--Seccion inputs-->
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-8"><hr class="my-5"></div>
+        <div class="col-2"></div>
+    </div>
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div class="row" style="background-color: #F1F1F1; padding-left:4%; padding-right: 4%; padding-top: 3%; padding-bottom: 3%;" >
+                <div class="col-7">
+                <div class="row">
+                  <p class="subtitulos" style="font-size: 35px;">Cotizamos el vuelo que necesites</p>    
+                  <br>
+                  <p style="font-size: 15px; opacity: 0.9;">Conseguiremos una tarifa especial para ti, solo completa el siguiente formulario y nos comunicaremos contigo lo mas pronto posible</p>
+                </div>
+                <div class="ps-2">
+                    <div class="row" style="background-color: #D9D9D9; padding-bottom: 3%;">                  
+                        <p style="font-size: 20px;">Datos del vuelo</p>
+                        <div class="col">
+                          <label class="form-label campos">Ciudad de Salida</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                          <label class="form-label campos">Fecha de Viaje</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                        </div>
+                        <div class="col">
+                          <label class="form-label campos">Ciudad de llegada</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                          <label class="form-label campos">Lugar Turistico</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                        </div>
+                        
+                    </div>
+                    <br>
+                  
+                    <div class="row" style="background-color: #D9D9D9; padding-bottom: 3%;">
+                        <p style="font-size: 20px;">Datos del pasajero</p>
+                
+                        <div class="col">
+                          <label class="form-label campos">Ciudad de Salida</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                          <label class="form-label campos">Fecha de Viaje</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                 
+                          <label class="form-label campos">Fecha de Viaje</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                        </div>
+                        <div class="col">
+                          <label class="form-label campos">Ciudad de llegada</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                          <label class="form-label campos">Lugar Turistico</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                
+                          <label class="form-label campos">Fecha de Viaje</label>
+                          <input type="text" class="form-control diseño" placeholder="">
+                          
+                          <br>
+                
+                          <div style="text-align: right;">
+                
+                          <button type="button" class="btn edit2">Enviar</button>
+                        </div>
+                        </div>
+                    </div>                        
+                </div>
+
+                </div>
+                <div class="col-5">
+                    <img src="../img/undraw_searching_re_3ra9 1.png" width="100%" style="margin-top: 150px;margin-left: 25px;">
+                </div>
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+
+    <br>
+
+    <!--footer-->
+    <div class="content footer">
+      <footer>
+          <div class="container" style="padding: 2%;">
+              <div class="row">
+                  <div class="col-sm-3">
+                      <h2 class="logo"><a href="#"> LOGO </a></h2>
+                  </div>
+                  <div class="col-sm-2" style="color: #B26B54;">
+                      <h5>Empieza</h5>
+                      <ul style="padding-left: 19;">
+                          <li><a href="#" class="font">Inicio</a></li>
+                          <li><a href="#" class="font">Tours</a></li>
+                          <li><a href="#" class="font">Vuelos</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4" style="color: #B26B54;">
+                      <h5> Sobre nosotros</h5>
+                      <ul style="padding-left: 19;">
+                          <li><a href="#" class="font">¿Quienes somos?</a></li>
+                          <li><a href="#" class="font">Nuestra Historia</a></li>
+                          <li><a href="#" class="font">Reviews</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="social-networks">
+                          <a href="#" class="twitter" style="color:rgb(200, 200, 200) ; font-size: 20px; padding-right: 15;padding-left: 10; "><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                          <a href="#" class="facebook" style="color:rgb(200, 200, 200) ; font-size: 20px; padding-right: 15;"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+                          <a href="#" class="google" style="color:rgb(200, 200, 200)   ; font-size: 20px;"><i class="fa-brands fa-instagram-square fa-2x"></i></a>
+                      </div>
+                      <button type="button" class="btn " style="background-color: #B26B54; ; margin: auto;"> Contactanos </button>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright bajo" style="text-align:center ;">
+              <p>© 2022 Copyright Dev Tours </p>
+          </div>
+      </footer>
+    </div>
+
+    <!-- Modal log in-->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" style="background:none ; border: none;">
+            
+                <div class="row login">
+                    <h5>Bienvenido Usuario</h5> 
+                    <input class="controles" id ="idadmin" type="email" name="" value="" placeholder="Usuario">
+                    <input  class="controles" type="password" name="" value="" placeholder="Contraseña">
+                    <button class="btn btn-success" onclick="fnenviar()">Iniciar Sesión</button>
+                    <p class="unap"><a href="#">¿Olvidaste tu contraseña?</a></p>
+                    <p class="otrap" style="position: absolute; bottom: 10px; left: 0px;"><a href="#">Registrate ahora</a></p>
+                    
+                    </div>
+          </div>
+        </div>
+      </div>
+    
+
+
+    <script src="../lib/jquery-3.6.0.min.js"></script>
+    <script src="../lib/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="../lib/bootstrap.min.css" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="../lib/bootstrap.min.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+</html>

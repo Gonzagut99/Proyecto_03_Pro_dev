@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Hugo 0.98.0">
+    <title>Dev Tours</title>
+    <link href="./lib/bootstrap.min.css" rel="stylesheet">
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/navbar-fixed/">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link href="./css/estilos_index.css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <img src="./img/imagen_inicio.jpg" style="width:100% ;">
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top fondoNav">
+      <div class="container-fluid">
+        <a class="navbar-brand tituloPrincipal" href="#"><i style class="fa-solid fa-suitcase"></i> Dev Tours</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <div class="paddingnavitems"><a class="nav-link active" aria-current="page" href="./index.html"><p class="fuenteNav">INICIO</p></a></div>
+            </li>
+            <li class="nav-item dropdown">
+              <div class="nav-item dropdown">
+                <button class="dropbtn">TOURS</button>
+                <div id="idDropdownCategorias" class="dropdown-content">
+
+                </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a href="./cotización_vuelo.html" class="nav-link"><p class="fuenteNav">VUELOS</p></a></div>              
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a class="nav-link" data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="fa-regular fa-user fa-2x"></i></a></div>              
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a href="./html/carrito.html" class="nav-link"><i class="fa-solid fa-cart-shopping fa-2x"></i></a></div>              
+            </li>
+            <li class="nav-item">
+              <div class="paddingnavitems"><a class="nav-link"><i class="fa-brands fa-whatsapp fa-2x"></i></a></div>              
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  <br>
+    <!--Seccion recomendaciones-->
+    <div class="container px-4 py-5" id="custom-cards">
+      <h2 class="pb-2 text-center subtitulos">Descubre nuestras <span class="subtitulosBold">recomendaciones</span></h2>
+
+      <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4">
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('./img/quistococha_recom.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="mt-5 mb-4 display-6 lh-1 fuenteRecomendaciones" style="padding-top:40%">Quistococha</h2>
+              <ul class="d-flex list-unstyled">
+                <li class="d-flex align-items-center me-3">
+                  <small>Loreto</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('./img/cañon-colca_recom.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="mt-5 mb-4 display-6 lh-1 fuenteRecomendaciones" style="padding-top:40%">Cañon del Colca</h2>
+              <ul class="d-flex list-unstyled">
+                <li class="d-flex align-items-center me-3">
+                  <small>Arequipa</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-4 shadow-lg" style="background-image: url('./img/Huaytapallana-Junin.png');">
+            <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
+              <h2 class="mt-5 mb-4 display-6 lh-1 fuenteRecomendaciones" style="padding-top:40%">Huaytapallana</h2>
+              <ul class="d-flex list-unstyled">
+                <li class="d-flex align-items-center me-3">
+                  <small>Junín</small>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Sección experiencias-->
+    <div style="width: 100%; background: url('./img/Turistas_exp.jpg') ; background-size:cover;">
+      <div class="container">
+        <div class="row py-3">
+          <div class="col-1">
+            <svg width="49" height="56" viewBox="0 0 49 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M48.1593 44.9772L26.8071 1.97662C25.8099 -0.0322456 23.1961 -0.0322456 22.1989 1.97662L0.842626 44.9772C-0.220674 47.1189 -0.281926 49.8265 0.683179 52.0445C1.63345 54.1173 3.43752 55.5812 5.38897 55.5812H43.6142C45.5656 55.5812 47.3697 54.2243 48.321 52.042C49.279 49.824 49.2216 47.1177 48.1593 44.9772ZM24.5006 10.2864L31.3723 24.0889H24.5006L19.9067 31.962L16.9589 25.479L24.5006 10.2864Z" fill="#F5F5F5"/>
+              </svg>
+          </div>
+          <div class="col-4">
+            <p class="titulosExperiencias">AVENTURA</p>
+          </div>
+          <div class="col-7"></div>
+        </div> 
+        <div class="row py-3">
+          <div class="col-1">
+            <svg width="50" height="64" viewBox="0 0 50 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M46.1827 55.4027L28.5723 55.5126V59.4176C28.5723 61.5795 26.9876 63.3251 25.0123 63.3251C23.0403 63.3251 21.43 61.577 21.43 59.4201V55.515L3.69684 55.5138C0.516263 55.5138 -1.17893 51.3036 0.941457 48.629L8.63957 38.9134H6.94661C4.11088 38.9134 2.5775 35.2757 4.41666 32.9161L11.1584 24.2674H9.95868C7.58384 24.2674 6.29041 21.5208 7.80704 19.713L22.8506 1.82964C24.0112 0.450245 26 0.450245 27.1606 1.82924L42.2153 19.7126C43.7353 21.5204 42.4386 24.267 40.0637 24.267H38.8618L45.5968 32.9169C47.4337 35.2778 45.8999 38.913 43.0657 38.913H41.3694L49.0675 48.6286C51.1935 51.3256 49.4525 55.4027 46.1827 55.4027Z" fill="#F5F5F5"/>
+              </svg>
+          </div>
+          <div class="col-4">
+            <p class="titulosExperiencias">NATURALEZA</p>
+          </div>
+          <div class="col-7"></div>
+        </div> 
+        <div class="row py-3">
+          <div class="col-1">
+            <svg width="49" height="63" viewBox="0 0 49 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24.2483 18.3996C24.5872 19.9121 24.5981 21.4965 24.303 23.021C23.9968 24.4494 23.3737 25.9859 22.4991 27.2103C20.9138 29.1909 18.935 30.4513 16.5407 31.0515V57.2076C16.5407 58.4799 16.1799 59.7043 15.36 60.6046C14.54 61.5049 13.4249 62.009 12.1676 62.009C11.1071 62.009 9.99419 61.5049 9.17314 60.6046C8.35318 59.7043 7.79452 58.4799 7.79452 57.2076V31.0515C5.59267 30.5713 3.51545 29.2269 2.02204 27.2463C1.13539 26.0219 0.516492 24.5935 0.213218 23.057C-0.0900562 21.5205 -0.0695573 19.9361 0.273129 18.4116L3.57558 2.04454C3.66851 1.58215 3.9145 1.17391 4.26544 0.898183C4.61528 0.622338 5.04713 0.498496 5.47569 0.550388C5.90535 0.601716 6.3033 0.826521 6.59192 1.18135C6.88055 1.53606 7.03798 1.99532 7.03579 2.47067V19.756H8.93481L10.8032 1.97972C10.8469 1.5866 11.0197 1.2248 11.293 0.962283C11.5554 0.699882 11.9052 0.55489 12.1676 0.55489C12.6268 0.55489 12.9766 0.699882 13.239 0.962283C13.5123 1.2248 13.5889 1.5866 13.731 1.97972L15.6005 19.756H17.4153V2.47067C17.4153 1.99892 17.6668 1.54254 17.8526 1.18831C18.2353 0.834084 18.6289 0.606974 19.0552 0.550388C19.4816 0.498916 19.8205 0.624379 20.2688 0.902505C20.6186 1.18063 20.8591 1.59164 20.9575 2.05654L24.2483 18.3996ZM49 57.2076C49 58.4799 48.5408 59.7043 47.7209 60.6046C46.9009 61.5049 45.7858 62.009 44.6269 62.009C43.468 62.009 42.3529 61.5049 41.5329 60.6046C40.713 59.7043 40.2538 58.4799 40.2538 57.2076V42.8031H38.4171C37.4988 42.8031 36.5804 42.5991 35.7277 42.2149C34.8858 41.8188 34.1096 41.2546 33.4537 40.5344C32.8086 39.8142 32.2948 38.9619 31.8465 38.0256C31.5951 37.0894 31.4202 36.081 31.4202 35.0727L31.4092 21.4125C31.5076 16.9831 32.7212 12.6498 34.9842 8.98628C37.2473 5.31675 40.4506 2.47667 44.2005 0.830843C44.6378 0.598211 45.3047 0.51164 45.8732 0.578777C46.4417 0.64589 46.9884 0.864573 47.4585 1.2158C47.9286 1.56703 48.3222 2.03974 48.5846 2.59431C48.8579 3.14768 48.9016 3.76467 49 4.39126V57.2076Z" fill="#F5F5F5"/>
+              </svg>              
+          </div>
+          <div class="col-4">
+            <p class="titulosExperiencias">COMIDA</p>
+          </div>
+          <div class="col-7"></div>
+        </div> 
+        <div class="row py-3">
+          <div class="col-1">
+            <svg width="49" height="65" viewBox="0 0 49 65" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12.25 14.4323C12.25 6.74931 17.7297 0.521973 24.5 0.521973C31.2703 0.521973 36.75 6.74931 36.75 14.4323V20.3938H43.75C46.6484 20.3938 49 23.0641 49 26.3554V52.1888C49 58.7713 44.2969 64.1119 38.5 64.1119H10.5C4.70094 64.1119 0 58.7713 0 52.1888V26.3554C0 23.0641 2.35047 20.3938 5.25 20.3938H12.25V14.4323ZM17.5 20.3938H31.5V14.4323C31.5 10.0418 28.3609 6.48353 24.5 6.48353C20.6391 6.48353 17.5 10.0418 17.5 14.4323V20.3938ZM14.875 32.3169C16.3297 32.3169 17.5 30.988 17.5 29.3361C17.5 27.6843 16.3297 26.3554 14.875 26.3554C13.4203 26.3554 12.25 27.6843 12.25 29.3361C12.25 30.988 13.4203 32.3169 14.875 32.3169ZM34.125 26.3554C32.6703 26.3554 31.5 27.6843 31.5 29.3361C31.5 30.988 32.6703 32.3169 34.125 32.3169C35.5797 32.3169 36.75 30.988 36.75 29.3361C36.75 27.6843 35.5797 26.3554 34.125 26.3554Z" fill="#F5F5F5"/>
+              </svg>
+          </div>
+          <div class="col-4">
+            <p class="titulosExperiencias">ENTRETENIMIENTO</p>
+          </div>
+          <div class="col-7"></div>
+        </div>
+        <div class="row py-3">
+          <div class="col-1">
+            <svg width="49" height="56" viewBox="0 0 49 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M36.2428 0.564941H12.7572L24.5 19.1035L36.2428 0.564941ZM49 20.2475L38.7215 2.86534L27.7156 20.2475H49ZM10.2785 2.86165L0 20.2475H21.2844L10.2785 2.86165ZM23.3803 55.0488C23.6674 55.4548 24.0789 55.6762 24.5 55.6762C24.9211 55.6762 25.3281 55.4513 25.6169 55.0535L48.866 24.184H0.130635L23.3803 55.0488Z" fill="#F5F5F5"/>
+              </svg>
+          </div>
+          <div class="col-4">
+            <p class="titulosExperiencias">HISTORIA/CULTURA</p>
+          </div>
+          <div class="col-7"></div>
+        </div>        
+      </div>
+    </div>
+
+    <!--Sección informativa-->
+    <div class="container px-4 py-5">
+      <div class="row">
+        <div class="col-5">
+          <h2 class="pb-2 text-center subtitulos" style="margin-top: 16%;">¿Por qué escoger <span class="subtitulosBold">Developers Trips?</span></h2>
+          <p class="text-center parrafoStyle">Developers Trips te invita a conocer la esencia del Perú, a través de auténticas experiencias de viaje donde compartiremos las tradiciones culturales de sus pobladores y disfrutaremos de la gran diversidad natural en esta encantadora tierra volcánica.</p>
+        </div>
+        <div class="col-7">
+          <img style="width: 100%;" src="./img/informativaMachupicchu.jpg" alt="informativaMachupicchu">
+        </div>
+      </div>
+    </div>
+
+    <!--Sección banner inicio de sesión"-->
+    <div>
+      <div class="fondoBannerLogin">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-3">
+          <div class="row align-items-center g-lg-5 py-3">
+            <div class="col-lg-7 text-center text-lg-start">
+              <h4 class="lh-1 titulosBannerLogin" style="font-weight: 600;">Gracias por visitarnos</h4>
+              <h2 class="lh-1 mb-3 titulosBannerLogin" style="font-weight: 800;">¿Deseas iniciar sesion?</h2>
+  
+              
+            </div>
+            <div class="col-md-10 mx-auto col-lg-5">
+              <form class="p-4 p-md-5 border rounded-3 bg-light">
+                <div class="form-floating mb-3">
+                  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                  <label for="floatingInput">Dirección de email</label>
+                </div>
+                <div class="form-floating mb-3">
+                  <input type="password" class="form-control" id="floatingPassword" placeholder="Password">
+                  <label for="floatingPassword">Contraseña</label>
+                </div>
+                <div class="checkbox mb-3">
+                  <label>
+                    <input type="checkbox" value="remember-me"> Recordar Contraseña
+                  </label>
+                </div>
+                <button class="w-100 btn btn-lg btn-primary" type="submit">Iniciar sesión</button>
+                <hr class="my-4">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="content footer">
+      <footer>
+          <div class="container" style="padding: 2%;">
+              <div class="row">
+                  <div class="col-sm-3">
+                      <h2 class="logo"><a href="#"> LOGO </a></h2>
+                  </div>
+                  <div class="col-sm-2" style="color: #B26B54;">
+                      <h5>Empieza</h5>
+                      <ul style="padding-left: 19;">
+                          <li><a href="#" class="font">Inicio</a></li>
+                          <li><a href="#" class="font">Tours</a></li>
+                          <li><a href="#" class="font">Vuelos</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-4" style="color: #B26B54;">
+                      <h5> Sobre nosotros</h5>
+                      <ul style="padding-left: 19;">
+                          <li><a href="#" class="font">¿Quienes somos?</a></li>
+                          <li><a href="#" class="font">Nuestra Historia</a></li>
+                          <li><a href="#" class="font">Reviews</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-sm-3">
+                      <div class="social-networks">
+                          <a href="#" class="twitter" style="color:rgb(200, 200, 200) ; font-size: 20px; padding-right: 15;padding-left: 10; "><i class="fa-brands fa-whatsapp fa-2x"></i></a>
+                          <a href="#" class="facebook" style="color:rgb(200, 200, 200) ; font-size: 20px; padding-right: 15;"><i class="fa-brands fa-facebook-square fa-2x"></i></a>
+                          <a href="#" class="google" style="color:rgb(200, 200, 200)   ; font-size: 20px;"><i class="fa-brands fa-instagram-square fa-2x"></i></a>
+                      </div>
+                      <button type="button" class="btn " style="background-color: #B26B54; ; margin: auto;"> Contactanos </button>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-copyright bajo" style="text-align:center ;">
+              <p>© 2022 Copyright Dev Tours </p>
+          </div>
+      </footer>
+    </div>
+    
+    <!-- Modal log in -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background:none ; border: none;">
+          
+              <div class="row login">
+                  <h5>Bienvenido Usuario</h5> 
+                  <input class="controles" id ="idadmin" type="email" name="" value="" placeholder="Usuario">
+                  <input  class="controles" type="password" name="" value="" placeholder="Contraseña">
+                  <button class="btn btn-success" onclick="fnenviar()">Iniciar Sesión</button>
+                  <p class="unap"><a href="#">¿Olvidaste tu contraseña?</a></p>
+                  <p class="otrap" style="position: absolute; bottom: 10px; left: 0px;"><a href="#">Registrate ahora</a></p>
+                  
+                  </div>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="./lib/jquery-3.6.0.min.js"></script>
+    <script src="./lib/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./lib/bootstrap.min.css" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    
+    <script src="./js/index.js"></script>
+    <script src="../js/catalogosdb.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" integrity="sha512-6PM0qYu5KExuNcKt5bURAoT6KCThUmHRewN3zUFNaoI6Di7XJPTMoT6K0nsagZKk2OB4L7E3q1uQKHNHd4stIQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  </body>
+</html>
